@@ -69,46 +69,49 @@ const getVentas = async () => {
 
 ---
 
-##📂 Estructura del Proyecto
+## 📂 Estructura del Proyecto
+
+A continuación se detalla la organización de los directorios y archivos principales:
 
 ```text
 APIFRANK/
-├── dist/ # Recursos compilados y estilos
-│ └── css/ # Archivos CSS (Bootstrap, Custom)
-├── js/ # Lógica de la aplicación
-│ ├── datatables/ # Plugins de tablas
-│ ├── ventas.js # Módulo de gestión de ventas
-│ ├── productos.js # Módulo de gestión de productos
-│ └── ... # Archivos CRUD por entidad
-├── views/ # Vistas modulares en PHP
-│ ├── productos.php
-│ ├── clientes.php
-│ └── empleados.php
-├── index.html # Punto de entrada principal
-└── README.md # Documentación
+├── dist/                # Recursos compilados y estilos
+│   └── css/             # Archivos CSS (Bootstrap, Custom)
+├── js/                  # Lógica de la aplicación
+│   ├── datatables/      # Plugins de tablas
+│   ├── ventas.js        # Módulo de gestión de ventas
+│   ├── productos.js     # Módulo de gestión de productos
+│   └── ...              # Archivos CRUD por entidad
+├── views/               # Vistas modulares en PHP
+│   ├── productos.php
+│   ├── clientes.php
+│   └── empleados.php
+├── index.html           # Punto de entrada principal
+└── README.md            # Documentación
 ```
 
 ---
 
 ##🧠 Buenas Prácticas Aplicadas
-Modularización: Cada entidad (clientes, ventas, etc.) tiene su propia lógica de JavaScript para facilitar el mantenimiento.
+-Modularización: Cada entidad (clientes, ventas, etc.) tiene su propia lógica de JavaScript para facilitar el mantenimiento.
 
-Asincronía Pura: Uso extensivo de async/await para evitar el bloqueo del hilo principal durante las peticiones.
+-Asincronía Pura: Uso extensivo de async/await para evitar el bloqueo del hilo principal durante las peticiones.
 
-Validación Previa: Todos los flujos fueron testeados en Postman antes de la implementación en código para asegurar respuestas 200 OK y 201 Created.
+-Validación Previa: Todos los flujos fueron testeados en Postman antes de la implementación en código para asegurar respuestas 200 OK y 201 Created.
 
-UI/UX: Diseño pensado en la movilidad del usuario gracias al sistema de rejilla de Bootstrap.
+-UI/UX: Diseño pensado en la movilidad del usuario gracias al sistema de rejilla de Bootstrap.
 
 ---
 
 ##🧪 Próximas Mejoras
-[ ] Implementación de Autenticación JWT para mayor seguridad.
 
-[ ] Paginación en el lado del servidor para grandes volúmenes de datos.
+- \*\*[ ] Implementación de Autenticación JWT para mayor seguridad.
 
-[ ] Filtros avanzados de búsqueda por fecha y cliente.
+- \*\*[ ] Paginación en el lado del servidor para grandes volúmenes de datos.
 
-[ ] Generación de reportes en PDF de las ventas realizadas.
+- \*\*[ ] Filtros avanzados de búsqueda por fecha y cliente.
+
+- \*\*[ ] Generación de reportes en PDF de las ventas realizadas.
 
 ---
 
