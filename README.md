@@ -92,7 +92,8 @@ APIFRANK/
 
 ---
 
-##🧠 Buenas Prácticas Aplicadas
+## 🧠 Buenas Prácticas Aplicadas
+
 -Modularización: Cada entidad (clientes, ventas, etc.) tiene su propia lógica de JavaScript para facilitar el mantenimiento.
 
 -Asincronía Pura: Uso extensivo de async/await para evitar el bloqueo del hilo principal durante las peticiones.
@@ -103,15 +104,15 @@ APIFRANK/
 
 ---
 
-##🧪 Próximas Mejoras
+## 🧪 Próximas Mejoras
 
-- \*\*[ ] Implementación de Autenticación JWT para mayor seguridad.
+- **[ ] Implementación de Autenticación JWT para mayor seguridad.
 
-- \*\*[ ] Paginación en el lado del servidor para grandes volúmenes de datos.
+- **[ ] Paginación en el lado del servidor para grandes volúmenes de datos.
 
-- \*\*[ ] Filtros avanzados de búsqueda por fecha y cliente.
+- **[ ] Filtros avanzados de búsqueda por fecha y cliente.
 
-- \*\*[ ] Generación de reportes en PDF de las ventas realizadas.
+- **[ ] Generación de reportes en PDF de las ventas realizadas.
 
 ---
 
